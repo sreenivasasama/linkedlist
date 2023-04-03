@@ -23,6 +23,13 @@ public class Main {
         System.out.println(strStr("sadbutsad","sad"));
         String s = " ss";
         s.trim();
+        char[] ch = Integer.toString(2043).toCharArray();
+        int[] newGuess = new int[ch.length];
+        for (int i = 0; i < ch.length; i++)
+        {
+            newGuess[i] = ch[i] - '0';
+            System.out.println("printing the converted int " + ch[i]+ "  " + newGuess[i]);
+        }
     }
 
     private static int strStr(String haystack, String needle) {
