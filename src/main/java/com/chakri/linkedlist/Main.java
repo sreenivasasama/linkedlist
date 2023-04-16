@@ -24,6 +24,10 @@ public class Main {
         employeeLinkedList.printList();
         System.out.println("Size of list " + employeeLinkedList.getSize());
         System.out.println("List is empty " + employeeLinkedList.isEmpty());
+       // employeeLinkedList.removeNode("Shail");
+        employeeLinkedList.printList();
+        employeeLinkedList.reverseList();
+        employeeLinkedList.printList();
 
     }
 }
